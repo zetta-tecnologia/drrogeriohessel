@@ -700,7 +700,7 @@ input {
 }
 
 .bg-gradient {
-  background: linear-gradient(90deg, rgba(30,190,182,1) 0%, rgba(0,130,124,1) 100%);
+  background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 .bg-gradient-light {
@@ -1188,7 +1188,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
      # Bradcrumb 
 =================================================================== */
 .breadcrumb-area {
-  padding: 150px 0;
+  padding: 80px 0;
   position: relative;
 }
 
@@ -2778,7 +2778,7 @@ body,
 }
 
 .departament-links:hover {
-  text-shadow: black -1.2px -1.2px 2px;
+  color: #444 !important;
 }
 
 .department-items .item {
@@ -5501,6 +5501,15 @@ body,
   right: 30px;
 }
 
+.contact-us-area .contact-items .address-box .address-info ul li a {
+  font-weight: 400;
+  color: #666666;
+}
+
+.contact-us-area .contact-items .address-box .address-info ul li a:hover {
+  color: #000 !important;
+}
+
 .contact-us-area .contact-items .address-box ul li h5 {
   font-weight: 600;
   text-transform: uppercase;
@@ -5510,7 +5519,7 @@ body,
 
 .contact-us-area .contact-items .address-box ul li h5 i {
     margin-right: 5px;
-    color: #1ebeb6;
+    color: #000;
     font-size: 30px;
     position: relative;
     top: 5px;
@@ -5561,7 +5570,7 @@ body,
 
 .contact-us-area .contact-form-box h2 strong {
   display: block;
-  color: #1ebeb6;
+  color: #666666;
   margin-top: 5px;
   font-weight: 700;
 }
@@ -5584,7 +5593,7 @@ body,
 }
 
 .contact-us-area form button {
-  background: linear-gradient(90deg, rgba(30,190,182,1) 0%, rgba(0,130,124,1) 100%);
+  background: linear-gradient(90deg, rgba(40,40,40,1) 0%, rgba(0,0,0,1) 100%);
   padding: 12px 35px;
   border-radius: 30px;
   color: #ffffff;
@@ -5744,7 +5753,7 @@ footer .branches li:last-child {
 }
 
 footer .f-item.link li {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   position: relative;
   z-index: 1;
   padding-left: 20px;
@@ -5832,7 +5841,7 @@ footer .footer-bottom p {
 }
 
 footer .footer-bottom img {
-  margin: 0 0 20px 6px !important;
+  margin: 0 0 0px 6px !important;
 }
 
 .footer-bottom i {
