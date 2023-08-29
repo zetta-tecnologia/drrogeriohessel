@@ -3367,7 +3367,7 @@ body,
     padding: 30px;
     background: #f7f7f7;
     margin-bottom: 30px;
-    border-bottom: 3px solid #1ebeb6;
+    border-bottom: 3px solid #8e8e8e;
 }
 
 .department-single-area .sidebar .widget:last-child {
@@ -3384,6 +3384,10 @@ body,
     display: block;
     padding: 10px;
     padding-left: 25px;
+}
+
+.department-single-area .sidebar .widget.link a:hover {
+  color: #8e8e8e !important;
 }
 
 .department-single-area .sidebar .widget.link li {
