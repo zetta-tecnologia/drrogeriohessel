@@ -5882,3 +5882,7 @@ footer .footer-bottom img {
   background: url(assets/img/preloader.gif) center no-repeat #fff;
   text-align: center;
 }
+
+.video-procedimentos {
+  width: 500px;
+}

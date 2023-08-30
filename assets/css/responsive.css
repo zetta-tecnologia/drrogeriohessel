@@ -1242,8 +1242,19 @@
   }
 }
 
+@media only screen and (max-width: 520px) {
+  .video-procedimentos {
+    width: 400px;
+  }
+
+}
+
 /* Custom Width Layout: 400px. */
 @media only screen and (max-width: 400px) {
+  
+  .video-procedimentos {
+    width: 350px;
+  }
 
   .department-items .item .info .head-of p strong {
     display: block;
