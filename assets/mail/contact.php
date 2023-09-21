@@ -32,9 +32,9 @@ else if(trim($comments) == '') {
 	exit();
 }
 
-if(get_magic_quotes_gpc()) {
-	$comments = stripslashes($comments);
-}
+// if(get_magic_quotes_gpc()) {
+// 	$comments = stripslashes($comments);
+// }
 
 
 // Configuration option.
@@ -42,7 +42,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "Info@yourdomain.com";
+$address = "natallia.bonadia@gmail.com";
 
 
 // Configuration option.
@@ -50,7 +50,7 @@ $address = "Info@yourdomain.com";
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-$e_subject = 'Contact Form';
+$e_subject = 'Contato via Site';
 
 
 // Configuration option.
